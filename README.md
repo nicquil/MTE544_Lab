@@ -119,7 +119,8 @@ These plots should help you with your discussions at the end of this manual.
 
 - Find ```filePlotter.py``` in the current branch (labOne), and download it.
 - Navigate to its directory, and run: ```python3 filePlotter.py --files imu_content_spiral.csv```
-- Generate plots for the data collected for each motion sequence (laser scans, IMU, and odometry).
+- Generate plots for the data collected for each motion sequence for IMU and Odom.
+- For laserscan, find out how to convert the range matrix into the cartesian, if you have NaN/Inf clean that and then plot only one row of the data.
 
 ## Part 8 - Map acquisition (10 marks)
 
